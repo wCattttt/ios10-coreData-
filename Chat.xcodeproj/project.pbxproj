@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92084A861D3DD6A300DD996C /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 92084A831D3DD6A300DD996C /* Person+CoreDataProperties.m */; };
+		92084A871D3DD6A300DD996C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 92084A851D3DD6A300DD996C /* Person.m */; };
 		92206DE31D3DD10F008DF758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92206DE21D3DD10F008DF758 /* main.m */; };
 		92206DE61D3DD10F008DF758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92206DE51D3DD10F008DF758 /* AppDelegate.m */; };
 		92206DE91D3DD10F008DF758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92206DE81D3DD10F008DF758 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92084A821D3DD6A300DD996C /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		92084A831D3DD6A300DD996C /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		92084A841D3DD6A300DD996C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		92084A851D3DD6A300DD996C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		92206DDE1D3DD10F008DF758 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92206DE21D3DD10F008DF758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92206DE41D3DD10F008DF758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +75,10 @@
 				92206DF21D3DD10F008DF758 /* LaunchScreen.storyboard */,
 				92206DF51D3DD10F008DF758 /* Info.plist */,
 				92206DED1D3DD10F008DF758 /* Chat.xcdatamodeld */,
+				92084A821D3DD6A300DD996C /* Person+CoreDataProperties.h */,
+				92084A831D3DD6A300DD996C /* Person+CoreDataProperties.m */,
+				92084A841D3DD6A300DD996C /* Person.h */,
+				92084A851D3DD6A300DD996C /* Person.m */,
 				92206DE11D3DD10F008DF758 /* Supporting Files */,
 			);
 			path = Chat;
@@ -156,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92206DE91D3DD10F008DF758 /* ViewController.m in Sources */,
+				92084A871D3DD6A300DD996C /* Person.m in Sources */,
 				92206DEF1D3DD10F008DF758 /* Chat.xcdatamodeld in Sources */,
 				92206DE61D3DD10F008DF758 /* AppDelegate.m in Sources */,
+				92084A861D3DD6A300DD996C /* Person+CoreDataProperties.m in Sources */,
 				92206DE31D3DD10F008DF758 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +321,7 @@
 				92206DFA1D3DD10F008DF758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
